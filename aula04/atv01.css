@@ -1,0 +1,12 @@
+body {
+    background-image: url("img01.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 300px;
+    background-attachment: scroll;
+
+}
+
+p {
+    
+  }

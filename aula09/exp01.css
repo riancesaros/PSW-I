@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    font-style: italic;
+}
+body {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.container{
+    height: 720px;
+    width: 1fr;
+    display: grid;
+    grid-template-areas: 'header header'
+                         'main side'
+                         'footer footer';
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100px 1fr 100px;
+}
+.a1 {
+    grid-area: header;
+    background-color: red;
+}
+.a2 {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+}
+.a2 .c1 {
+    width: 100%;
+    height: 33.33%;
+    background-color: orange;
+}
+.a2 .c2 {
+    width: 100%;
+    height: 33.33%;
+    background-color: blue;
+}
+.a2 .c3 {
+    width: 100%;
+    height: 33.33%;
+    background-color: orange;
+}
+.a3 {
+    grid-area: side;
+    background-color: magenta;
+}
+.a4 {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
+}
+.a4 .p1 {
+    width: 33.33%;
+    height: 100%;
+    background-color: green;
+}
+.a4 .p2 {
+    width: 33.33%;
+    height: 100%;
+    background-color: limegreen;
+}
+.a4 .p3 {
+    width: 33.33%;
+    height: 100%;
+    background-color: darkgreen;
+}

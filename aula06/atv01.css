@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-areas: "headerl headerr"
+                         "footerl footerr";
+    grid-template-rows: 100px 550px;
+    grid-template-columns: 100px 1fr;
+}
+.headerl {
+    background-color: blue;
+    grid-area: headerl;
+}
+.headerr {
+    background-color: lightseagreen;
+    grid-area: headerr;
+}
+.footerl {
+    background-color: blueviolet;
+    grid-area: footerl;
+}
+.footerr {
+    background-color: violet;
+    grid-area: footerr;
+}

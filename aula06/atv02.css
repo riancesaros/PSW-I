@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-areas: "cima1 cima2 cima3"
+                         "baixo1 baixo2 baixo3";
+    grid-template-rows: 550px 100px;
+    grid-template-columns: 100px 1fr 400px;
+}
+.header1 {
+    background-color: blue;
+    grid-area: cima1;
+}
+.header2 {
+    background-color:  lightsalmon;
+    grid-area: cima2;
+}
+.header3 {
+    background-color:  blueviolet;
+    grid-area: cima3;
+}
+.footer1 {
+    background-color: lightseagreen;
+    grid-area: baixo1;
+}
+.footer2 {
+    background-color: chocolate;
+    grid-area: baixo2;
+}
+.footer3 {
+    background-color: violet;
+    grid-area: baixo3;
+}

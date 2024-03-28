@@ -1,0 +1,119 @@
+html,body {
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+p {
+    background-color: brown;
+}
+.header {
+    background-color: rgb(0,255,115);
+    height: 150px;
+    width: auto;
+    margin-top: 30px;
+    border: 2px solid red;
+    color: red;
+}
+.header p {
+    background-color: yellow;
+    margin: 70px 570px;
+    font-size: 30px;
+}
+.content {
+    background-color: yellow;
+    height: 420px;
+    width: auto;
+    margin-top: 3px;
+    border: 3px solid red;
+}
+.content p {
+    background-color: darkorchid;
+}
+
+
+
+
+
+
+
+
+
+
+/*#hp1 {
+    background-color: yellow;
+    margin-left: 450px;
+    margin-top: 50px;
+    width: 350px;
+    height: 35px;
+    font-size: 30px;
+    font-weight: light bold;
+}
+.content {
+    background-color: yellow;
+    border: 2px solid red;
+    margin: 3px;
+    width: auto;
+    height: 350px; 
+}
+#cd1 {
+    background-color: brown;
+    width: auto;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#cd2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#cp2 {
+    background-color: blueviolet;
+}
+#cd3 {
+    background-color: blue;
+    width: 320px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#cp3 {
+    background-color: blue;
+    margin-left: 30px;
+}
+#cd4 {
+    background-color: red;
+    width: 320px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 15px;
+}
+#cp4 {
+    background-color: red;
+}
+#cd5 {
+    background-color: lightgreen;
+    width: 320px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 15px;
+}
+#cp5 {
+    background-color: lightgreen;
+    margin-left: 30px;
+}
+.footer {
+    background-color: yellowgreen;
+    margin: 3px;
+    width: 1360px;
+    height: 130px;
+    margin-top: 20px;
+}
+#fp1 {
+    background-color: red;
+    width: 1350px;
+    height: 20px;
+    text-align: center;
+}*/

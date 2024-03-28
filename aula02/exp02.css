@@ -1,0 +1,27 @@
+h1 {
+    
+    text-align: center;
+    background-color: black;
+    color: pink;
+}
+
+p {
+    background-color: dimgray;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+#p2 {
+    background-color: aquamarine;
+}
+
+.stilo {
+    font-family:'Times New Roman', Times, serif;
+    background-color: honeydew;
+    color: darkgoldenrod;
+    height: 80px;
+    width: 800px;
+}

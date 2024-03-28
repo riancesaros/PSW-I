@@ -1,0 +1,36 @@
+
+body {
+    background-color: brown;
+
+}
+.box {
+    height: 600px;
+    background-color: black;
+    border: 10px solid chocolate;
+    display: grid;
+    grid-template-areas:    "topo topo mr"
+                            "ml cont mr"
+                            "ml base mr";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 200px 1fr 200px;
+}
+.header {
+    background-color: aliceblue;
+    grid-area: topo;
+}
+.menul {
+    background-color: aquamarine;
+    grid-area: ml;
+}
+.content {
+    background-color: cadetblue;
+    grid-area: cont;
+}
+.menur {
+    background-color: darkcyan;
+    grid-area: mr;
+}
+.footer {
+    background-color: blue;
+    grid-area: base;
+}

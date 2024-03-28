@@ -1,0 +1,43 @@
+#d1 {
+    background-color: red;
+    height: 120px;
+    width: 1100px;
+    color: white;
+    padding-top: 50px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#d2 {
+    background-color: yellow;
+    height: 120px;
+    width: 1100px;
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#d3 {
+    background-color: black;
+    height: 120px;
+    width: 1100px;
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#d4 {
+    background-color: green;
+    height: 120px;
+    width: 1100px;
+    color: white;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-left: 500px;
+}
