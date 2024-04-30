@@ -46,6 +46,7 @@
 .item3 {
     grid-area: main;
     background-color: lightskyblue;
+    justify-content: center;
 }
 .item4 {
     grid-area: right;

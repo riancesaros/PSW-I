@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 'left header right'
+                         'left content right'
+                         'left footer right';
+    grid-template-columns: 250px 1050px 1fr;
+    grid-template-rows: 150px 1fr 80px;
+}
+
+.header {
+    text-align: center;
+    background-color: #9c667d;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header a{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(159, 105, 255, 0.4);
+    border-radius: 12px;
+    color: beige;
+    text-decoration: none;
+}
+
+.left {
+    background-color: #3b5274;
+    grid-area: left;
+    display: grid;
+    grid-template-areas: 'l1'
+                         'l2'
+                         'l3';
+    grid-template-rows: 200px 200px 1fr;
+    grid-template-columns: 1fr;
+}
+.l1{
+    background-color: cadetblue;
+    grid-area: l1;
+}
+.l1 img {
+    height: 100%;
+    width: 100%;
+}
+.l2{
+    text-align: center;
+    background-color: yellow;
+    grid-area: l2;
+}
+.l3{
+    background-color: chartreuse;
+    grid-area: l3;
+}
+.content {
+    background-color: aliceblue;
+    grid-area: content;
+    display: flex;
+    justify-content: space-around;
+
+}
+.content #f1 {
+    width: 350px;
+    background-color: #e4bdb8;
+}
+.content #f2 {
+    width: 350px;
+    background-color: #ce938b;
+}
+.content #f3 {
+    width: 350px;
+    background-color: #c88a82;
+}
+
+.right {
+    background-color: #e3e1b1;
+    grid-area: right;
+
+}
+
+.footer {
+    text-align: center;
+    background-color: #e8cc9c;
+    grid-area: footer;
+}
+.footer p {
+    margin-top: 25px;
+}
+
+@media(max-width: 992px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas: 'header'
+                             'left'
+                             'content'
+                             'right'
+                             'footer';
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .content #f1, .content #f2, .content #f3 {
+        width: 100%;
+    }
+}

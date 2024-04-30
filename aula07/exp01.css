@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 .box {
     width: 1fr;
@@ -11,11 +12,12 @@
     grid-template-columns: 300px 1fr 300px;
     grid-template-rows: 100px 100px 100px;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #7db8a2;
+    color: #7e638c;
     padding: 10px;
 }
 .box div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 250, 211, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
