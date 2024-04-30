@@ -1,4 +1,5 @@
 <?php
+    
 
     $var = "Bill Gates";
     $tipo = gettype($var);
@@ -14,5 +15,5 @@
 
     $var = true;
     $tipo = gettype($var);
-    echo "$var ($tipo)<br>";
+    echo "$var ($tipo)<br>";,
 ?>

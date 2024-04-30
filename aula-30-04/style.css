@@ -1,0 +1,17 @@
+body{
+    background-color:darkslategray;
+    justify-content: center;
+    display: flex;
+}
+.box {
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    width: 800px;
+    height: 600px;
+}
+p {
+    color: cadetblue;
+    background-color: rgb(38, 38, 38);
+}
