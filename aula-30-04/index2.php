@@ -40,11 +40,11 @@
     $var2[0] = 4;
 
     echo "$var2[0], $var2[6], $var2[9]";
-    /*
+
+    echo "<br><br><br>";
     for($i=0; $i<count($var); $i++) {
         echo "$var[$i]";
     }
-    */
     ?> 
     </div>
 </body>
