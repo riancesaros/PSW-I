@@ -5,5 +5,10 @@
             echo "$var[$i] ";
     }
 
+    echo "<br><br>";
+    
+    foreach ($var as $dado) {
+        echo "$dado";
+    }
 
 ?>
