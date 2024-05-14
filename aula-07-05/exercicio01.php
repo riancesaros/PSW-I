@@ -27,4 +27,10 @@
         }
     }
 
+    echo "<br><br>";
+
+    foreach($alunos as $dados) {
+        echo $dados." ";
+    }
+
 ?>
