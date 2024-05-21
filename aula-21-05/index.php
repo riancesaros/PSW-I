@@ -78,14 +78,24 @@
                 <td><?php echo$array['alunos'][2]['endereco'];?></td>
             </tr>
         </table>
-        <h2>Exemplo 3</h2>
-        <?php
-            foreach ($estados as $sigla => $nome) {
-                echo $nome . " - " . $sigla . PHP_EOL;
-            }
-        ?>
-        
+        <h2>Exemplo 3 - (foreach)</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Endereço</th>
+            </tr>
+            <?php
+                foreach ($array['alunos'] as $key => $value) {
+                    echo "<tr>";
+                        foreach ($value as $key2 => $value2) {
+                            echo "<td>".$value2."</td>";
+                        };
+                    echo "</tr>";
+                };
+            ?>
+        </table>
     </div>
-    
 </body>
 </html>
