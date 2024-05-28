@@ -37,9 +37,10 @@
                     $result = $valor1 + $valor2;
                     echo $result;
                 }
-
+                echo "Soma 12 + 3 = <br>";
                 soma2 (12, 3);
-
+                echo "<br><br>Soma 27 + 8 = <br>";
+                soma2 (27, 8);
             ?>
         </pre>
     </div>
