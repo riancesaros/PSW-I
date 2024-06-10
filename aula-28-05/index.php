@@ -43,6 +43,18 @@
                 soma2 (27, 8);
             ?>
         </pre>
+        <h2>Exercicio 4</h2>
+        <pre>
+            <?php
+                function soma2 ($valor1, $valor2) {
+
+                    $result = $valor1 + $valor2;
+                    $result2 = $result1 + 1;
+                    return $result + $result2;
+                }
+                soma2 (12, 3);
+            ?>
+        </pre>
     </div>
 </body>
 </html>
