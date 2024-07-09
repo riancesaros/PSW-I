@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    background-color:palevioletred;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 1rem;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+h3 {
+    margin-left: 200px;
+}
+#formulario, label, input, select {
+    margin: 3px;
+}
+#nome {
+    width: 400px;
+}
+#preco-compra, #preco-venda {
+    width: 100px;
+}
+#cor {
+    width: 80px;
+}
+#enviar {
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 220px;
+    border-radius: 8px;
+    background-color: forestgreen;
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#enviar:hover {
+    background-color: red;
+    cursor: pointer;
+}
