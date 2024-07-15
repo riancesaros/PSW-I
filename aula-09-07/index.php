@@ -39,7 +39,7 @@
             <input type="radio" id="genero" name="fav_language" value="genero">
             <label for="masculino">Masculino</label>
             <input type="radio" id="genero" name="fav_language" value="genero">
-            <label for="feminino">Feminino</label><br>
+            <label for="feminino">Feminino</label><br>/
             <label for="data-compra">Data da compra</label>
             <input type="date" id="data-compra"" name="data-compra""><br>
             <input type="submit" id="enviar" value="Enviar">
